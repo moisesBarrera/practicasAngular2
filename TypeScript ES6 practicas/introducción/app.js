@@ -93,3 +93,18 @@ var hulk = {
 hulk.smash();
 console.log(miFuncion("Normal"));
 console.log(miFuncionF("Flecha"));
+//Sección 2, lección 16 - Destructuración de objetos y Arreglos
+var avenger = {
+    nombree: "Steve",
+    clave: "Capitan America",
+    poder: "Droga"
+};
+//alias
+var name = avenger.nombree, clave = avenger.clave, poder = avenger.poder;
+//nombre = avenger.nombre;
+//let clave = avenger.clave;
+//let poder = avenger.poder;
+console.log(name, clave, poder);
+var avengers = ["Thor", "Steve", "Tony"];
+var thor = avengers[0], capi = avengers[1], ironman = avengers[2];
+console.log(thor, capi, ironman);
